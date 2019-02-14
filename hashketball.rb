@@ -204,9 +204,9 @@ end
 #   end
 # end
 def num_points_scored(name)
-  gol = find_the_player(name)
+  player = player(name)
   binding.pry
-  gol.fetch(:points)
+  player.fetch(:points)
 end
 
 def shoe_size(name)
