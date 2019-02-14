@@ -204,7 +204,7 @@ end
 #   end
 # end
 def num_points_scored(name)
-  player = find_ther_player(name)
+  player = find_the_color(name)
   binding.pry
   player.fetch(:points)
 end
