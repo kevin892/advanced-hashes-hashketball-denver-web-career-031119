@@ -204,7 +204,7 @@ end
 #   end
 # end
 def num_points_scored(name)
-  player = player(name)
+  player = players(name)
   player.fetch(:points)
   binding.pry
 end
